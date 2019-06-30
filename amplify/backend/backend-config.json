@@ -1,0 +1,8 @@
+{
+	"auth": {
+		"website7a30dcf4": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}

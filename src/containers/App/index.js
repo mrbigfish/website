@@ -38,6 +38,8 @@ const AppWrapper = styled.section`
 
 `
 
+Amplify.configure(aws_exports);
+
 const App = ({ history }) => {
   return (
     <AppWrapper>
