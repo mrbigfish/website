@@ -1,0 +1,24 @@
+{
+  "base": "",
+
+  "paths": {
+    "source": {
+      "config"      : "src/semantic-ui/theme.config",
+      "definitions" : "src/semantic-ui/definitions/",
+      "site"        : "src/semantic-ui/site/",
+      "themes"      : "src/semantic-ui/themes/"
+    },
+    "output": {
+      "packaged"     : "dist/",
+      "uncompressed" : "dist/components/",
+      "compressed"   : "dist/components/",
+      "themes"       : "dist/themes/"
+    },
+    "clean"        : "dist/"
+  },
+
+  "permission" : false,
+  "autoInstall": true,
+  "rtl": false
+
+}
