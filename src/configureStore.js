@@ -16,8 +16,8 @@ const reduxDevTools =
 const middlewareEnhancer = applyMiddleware(sagaMiddleware, routerMiddleware(history));
 
 const composedEnhancers = compose(
-    middlewareEnhancer,
-    reduxDevTools
+  middlewareEnhancer,
+  reduxDevTools
 );
 
 export default function configureStore(preloadedState) {

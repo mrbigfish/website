@@ -17,19 +17,19 @@ const reduxDevTools =
     window.__REDUX_DEVTOOLS_EXTENSION__();
 
 export default function configureStore(preloadedState) {
-    const store = createStore(
-      createRootReducer(history),
-      preloadedState,
-      compose(
-        applyMiddleware(
-          routerMiddleware(history),
-          sagaMiddleware,
-          reduxDevTools
-        ),
+  const store = createStore(
+    createRootReducer(history),
+    preloadedState,
+    compose(
+      applyMiddleware(
+        routerMiddleware(history),
+        sagaMiddleware,
+        reduxDevTools
       ),
-    )
+    ),
+  )
   
-    return store
-  }
+  return store
+}
 
 sagaMiddleware.run(rootSaga);

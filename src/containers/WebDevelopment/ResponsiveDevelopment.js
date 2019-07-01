@@ -11,6 +11,9 @@ import {
 } from 'semantic-ui-react'
 import info from './reactiveContent'
 
+// #994d33
+// #802000
+
 export default class InfoTemplate extends Component {
   state = { value: 0 }
 
@@ -24,7 +27,7 @@ export default class InfoTemplate extends Component {
 
     return (
       <Container textAlign='center' >
-        <Segment.Group horizontal style={{ backgroundColor: '#802000'}}>     
+        <Segment.Group horizontal style={{ backgroundColor: '#cc3300'}}>     
           <Responsive as={Segment} raised maxWidth={Responsive.onlyMobile.maxWidth} >
             <Segment basic>
               <Header as='h3' style={{ margin: '0em 0em 0em 0em', color: '#ffffff' }} >

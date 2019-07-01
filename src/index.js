@@ -23,7 +23,7 @@ const store = configureStore(preloadedState);
 
 ReactDOM.render(
   <Provider store={store}>
-          <App history={history} />
+    <App history={history} />
   </Provider>,
   document.getElementById('root')
 )
