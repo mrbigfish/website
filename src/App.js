@@ -42,7 +42,6 @@ const App = ({ history }) => {
   return (
     <AppWrapper>
       <ConnectedRouter history={history}>
-        <ResponsiveContainer>
           <Switch>
             <Route exact path='/' component={home} />
             <Route path='/scalability' component={Scalability} />
@@ -74,7 +73,6 @@ const App = ({ history }) => {
             <Route path='/giving_back' component={GivingBack} />
             <Route component={RefErr} />
           </Switch>
-        </ResponsiveContainer>
       </ConnectedRouter>
     </AppWrapper>
   )
